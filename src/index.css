@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: skyblue;
 }
 
 code {
@@ -14,7 +15,11 @@ code {
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+list-style: none;
+padding: 0;
+
 }
 
+.newExercise {
+  border-top: 2px solid black;
+}
