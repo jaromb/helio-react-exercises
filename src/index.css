@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: skyblue;
+  background: whitesmoke;
 }
 
 code {
@@ -18,6 +18,16 @@ ul {
 list-style: none;
 padding: 0;
 
+}
+
+.item-with-buttons {
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.item-with-buttons > li {
+  width: 200px;
 }
 
 .newExercise {
